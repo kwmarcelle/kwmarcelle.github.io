@@ -87,10 +87,20 @@ div.news {
   margin: 0 auto;
   box-shadow: 0 1px 3px 0 rgba(0,0,0,0.1),0 1px 2px 0 rgba(0,0,0,0.06);
   background-color:rgba(0,0,0,.9);
-  \max-width:600px;
+  max-width:600px;
   color:white;
   margin-top:40px;
   margin-bottom:100%;
+  padding:20px;
+  border-radius:4px;
+}
+div.news_highlight {
+  margin: 0 auto;
+  box-shadow: 0 1px 3px 0 rgba(0,0,0,0.1),0 1px 2px 0 rgba(0,0,0,0.06);
+  background:linear-gradient(to top left, #2980B960, #6DD5FA60, #0052D460);
+  max-width:600px;
+  color:white;
+  margin-top:40px;
   padding:20px;
   border-radius:4px;
 }
