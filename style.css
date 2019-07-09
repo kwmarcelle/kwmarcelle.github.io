@@ -161,6 +161,7 @@ position: relative;
 }
 @media (max-width: 767px) {
   body {
+    background-size: auto;
     background-attachment: initial;
   }
 }
