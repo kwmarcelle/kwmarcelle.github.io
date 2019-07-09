@@ -176,14 +176,4 @@ position: relative;
 }
 @media screen and (max-width:600px) {
   img.logo {width: 100%;}
-  body {
-    background-size:contain;
-    background-attachment: scroll;
-  }
-}
-@media screen and (max-width: 767px) {
-  body {
-    background-size:auto;
-    background-attachment: scroll;
-  }
 }
