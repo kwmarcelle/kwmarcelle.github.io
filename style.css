@@ -58,7 +58,7 @@ header {
   left: 0;
   bottom:30;
   background-color: rgb(0,0,0);
-  background-color: rgba(0,0,0);
+  background-color: rgba(0,0,0,.9);
 }
 .overlay-content {
   position: relative;
@@ -71,7 +71,7 @@ header {
 .overlay-content a {
   height: 20vh;
   text-decoration: none;
-  font-size: 36px;
+  font-size: 3em;
   color: white;
   display: block;
   transition: 0.3s;
@@ -83,10 +83,13 @@ header {
   font-family: sans-serif;
   letter-spacing: -3px;
   z-index: 149;
+  font-family: "IM Fell DW Pica SC", serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .overlay a:hover, .overlay a:focus {
-  color: #FF3838;background-color:;
+  
 }
 
 .overlay .closebtn {
@@ -101,6 +104,7 @@ header {
 }
 .closebtn {
   z-index: 150;
+  background-color: black;;
 }
 
 #menu {
@@ -109,7 +113,7 @@ header {
 }
 .hamburger{
   font-size: 40px;
-  color: red;
+  color: rgb(255, 255, 255);
   margin: 25px;
   right: 0;
   top:5px;
@@ -121,26 +125,6 @@ img.logo {
 img.links_logo {
   height: 120px;
 }
-img.album {
-  max-width: 300px;
-  display: flex;
-  margin: 0 auto;
-  padding: 20px;
-}
-div.gallery {
-  margin: 0 auto;
-  max-width:900px;
-}
-img.banner {
-  width: 70%;
-  margin: 40px auto 120px auto;
-  display: block;
-  padding: 1px;
-  background: linear-gradient(to bottom right, gray,white);
-  border-radius: 5px;
-  -webkit-box-shadow: 5px 5px 20px 0 rgba(0,0,0,.2);
-  box-shadow: 5px 5px 20px 0 rgba(0,0,0,.2);
-}
 main {
   margin: 0 auto;
   height: 100%;
@@ -149,19 +133,8 @@ main {
 svg {
   margin:5px;
 }
-svg:hover {
 
-}
-video {
-  width: 100%;
-  max-width: 622px;
-  padding:1px;
-  background: linear-gradient(to bottom right, gray,white);
-  margin-bottom: 100px;
-}
-audio {
-  margin-bottom: 100px;
-}
+
 div.content {
 }
 div.content-wrapper {
@@ -177,26 +150,7 @@ div.content_store {
   margin: 0 auto;
   display: flex;
 }
-div.news {
-  margin: 0 auto;
-  box-shadow: 0 1px 3px 0 rgba(0,0,0,0.1),0 1px 2px 0 rgba(0,0,0,0.06);
-  background-color:rgba(0,0,0,.9);
-  max-width:600px;
-  color:white;
-  margin-top:40px;
-  padding:20px;
-  border-radius:4px;
-}
-div.news_highlight {
-  margin: 0 auto;
-  box-shadow: 0 1px 3px 0 rgba(0,0,0,0.1),0 1px 2px 0 rgba(0,0,0,0.06);
-  background:linear-gradient(to top left, #2980B960, #6DD5FA60, #0052D460);
-  max-width:600px;
-  color:white;
-  margin-top:40px;
-  padding:20px;
-  border-radius:4px;
-}
+
 div.links {
   text-align:center;
   z-index: 140;
@@ -204,7 +158,6 @@ div.links {
   position: fixed;
   bottom: 0;
   margin: 10px;
-  height: ;
 }
 div.links2 {
   text-align:center;
@@ -213,12 +166,14 @@ div.links2 {
   position: fixed;
   top: 10px;
   margin: 25px;
-  background-color:;
 }
 div.links2 a{
   font-family: sans-serif;
   font-weight: bold;
   font-size: 2em;
+  font-family: "IM Fell DW Pica", serif;
+  font-weight: 400;
+  font-style: italic;
 }
 div.links_br {
   text-align:center;
@@ -227,14 +182,9 @@ div.links_br {
   position: fixed;
   bottom: 0;
   right:0;
-  margin: 10px;
-  height: ;
+  margin: 20px;
 }
-svg {
-  box-sizing: content-box;
-  display: block;
-  margin: 10px 10px;
-}
+
 img.links:hover {
   filter:drop-shadow(1px 1px 1px gray);
 }
@@ -253,13 +203,16 @@ p {
 }
 .links_br a {
   display: block;
-  font-size: 1.6em;
+  font-size: 2em;
   padding: 10px 10px 5px 0;
   text-align: right;
   font-family: sans-serif;
   font-weight: bold;
   letter-spacing:-1px;
   text-decoration: none;
+  font-family: "IM Fell English SC", serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .topnav a {
@@ -270,6 +223,9 @@ text-align: center;
 padding: 14px 16px;
 text-decoration: none;
 font-size: 17px;
+font-family: "IM Fell DW Pica SC", serif;
+font-weight: 400;
+font-style: normal;
 }
 
 .topnav a:hover {
