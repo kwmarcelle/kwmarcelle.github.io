@@ -137,6 +137,10 @@ svg {
 
 div.content {
 }
+div.iframely-embed {
+  margin:40px auto;
+  background-color: red;
+}
 div.content-wrapper {
   background-size: contain;
   background-position: center;
@@ -145,6 +149,7 @@ div.content-wrapper {
   height: 70%;
   overflow: hidden;
   position: absolute;
+  z-index: 130;
 }
 div.content_store {
   margin: 0 auto;
