@@ -139,16 +139,18 @@ div.content {
 }
 div.iframely-embed {
   margin:40px auto;
+  border-radius: 30px;
 }
 div.content-wrapper {
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
   width:100%;
-  height: 70%;
+  height: 600px;
   overflow: hidden;
-  position: absolute;
+  position: ;
   z-index: 130;
+  display: block;
 }
 div.content_store {
   margin: 0 auto;
@@ -280,6 +282,7 @@ footer {
   margin: 100px auto;
   width:100%;
   text-align:center;
+  padding:10px;
 }
 
 @media screen and (max-width: 600px) {
