@@ -19,7 +19,48 @@
     <link href="https://fonts.googleapis.com/css2?family=IM+Fell+DW+Pica+SC&family=IM+Fell+DW+Pica:ital@0;1&family=IM+Fell+English+SC&display=swap" rel="stylesheet">
     
     <link rel="stylesheet" href="style.css">
-    <title>Tattoos by Keith Marcelle</title>
+    <script>
+      $(function() {
+$(".img-w").each(function() {
+  $(this).wrap("<div class='img-c'></div>")
+  let imgSrc = $(this).find("img").attr("src");
+   $(this).css('background-image', 'url(' + imgSrc + ')');
+})
+          
+
+$(".img-c").click(function() {
+  let w = $(this).outerWidth()
+  let h = $(this).outerHeight()
+  let x = $(this).offset().left
+  let y = $(this).offset().top
+  
+  
+  $(".active").not($(this)).remove()
+  let copy = $(this).clone();
+  copy.insertAfter($(this)).height(h).width(w).delay(500).addClass("active")
+  $(".active").css('top', y - 8);
+  $(".active").css('left', x - 8);
+  
+    setTimeout(function() {
+  copy.addClass("positioned")
+}, 0)
+  
+}) 
+
+
+
+
+})
+
+$(document).on("click", ".img-c.active", function() {
+let copy = $(this)
+copy.removeClass("positioned active").addClass("postactive")
+setTimeout(function() {
+  copy.remove();
+}, 500)
+})
+    </script>
+    <title>Tattoos by Keith Marcelle - Events</title>
   </head>
   <body>
     <header>
@@ -48,15 +89,21 @@
 
     </header>
     <main>
-      <div class="content" style="max-width: 800px;margin:0 auto;">
-
-        <div class="iframely-embed"><div class="iframely-responsive" style="padding-bottom: 56.25%; padding-top: 120px;"><a href="https://www.actattooexpo.com" data-iframely-url="//iframely.net/b6pRqHd"></a></div></div><script async src="//iframely.net/embed.js"></script>
-        <div class="iframely-embed"><div class="iframely-responsive" style="padding-bottom: 39.4792%; padding-top: 120px;"><a href="https://villainarts.com/tattoo-conventions-villain-arts/philadelphia-tattoo-arts-convention/" data-iframely-url="//iframely.net/xKOwudn"></a></div></div><script async src="//iframely.net/embed.js"></script>
-
+      <div class="content">
+      <div class="gallery">
+        <div class="img-w">
+          <img src="images/Untitled_Artwork.png" alt="" /></div>
+        <div class="img-w"><img src="https://images.unsplash.com/photo-1485793997698-baba81bf21ab?dpr=1&auto=format&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb&crop=" alt="" /></div>
+        <div class="img-w"><img src="https://images.unsplash.com/photo-1485871800663-71856dc09ec4?dpr=1&auto=format&fit=crop&w=1500&h=2250&q=80&cs=tinysrgb&crop=" alt="" /></div>
+        <div class="img-w"><img src="https://images.unsplash.com/photo-1485871882310-4ecdab8a6f94?dpr=1&auto=format&fit=crop&w=1500&h=2250&q=80&cs=tinysrgb&crop=" alt="" /></div>
+        <div class="img-w"><img src="https://images.unsplash.com/photo-1485872304698-0537e003288d?dpr=1&auto=format&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb&crop=" alt="" /></div>
+        <div class="img-w"><img src="https://images.unsplash.com/photo-1485872325464-50f17b82075a?dpr=1&auto=format&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb&crop=" alt="" /></div>
+        <div class="img-w"><img src="https://images.unsplash.com/photo-1470171119584-533105644520?dpr=1&auto=format&fit=crop&w=1500&h=886&q=80&cs=tinysrgb&crop=" alt="" /></div>
+        <div class="img-w"><img src="https://images.unsplash.com/photo-1485881787686-9314a2bc8f9b?dpr=1&auto=format&fit=crop&w=1500&h=969&q=80&cs=tinysrgb&crop=" alt="" /></div>
+        <div class="img-w"><img src="https://images.unsplash.com/photo-1485889397316-8393dd065127?dpr=1&auto=format&fit=crop&w=1500&h=843&q=80&cs=tinysrgb&crop=" alt="" /></div>
+      </div>
       </div>
 
-  <div>
-  </div>
   <div class="links2">
     <a href="index.html"><img class="links_logo" src="images/headerlogo.PNG" alt="keith marcelle logo"></a>
   </div>
