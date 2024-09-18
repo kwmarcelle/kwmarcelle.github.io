@@ -155,13 +155,11 @@ svg {
 div.content {
   text-align: center;
 }
-#tattoo {  height: 100vh;
+#tattoo {  
   width: 100%;
   text-align: center;
 }
 #support {
-  height: 100vh;
-  max-width: 800px;
   text-align: center;
 }
 div.iframely-embed {
