@@ -336,7 +336,6 @@ footer {
   grid-auto-rows: auto;
   grid-auto-flow: dense;
   gap: 6px;
-  max-width: 1200px;
   margin:0 auto;
 }
 
