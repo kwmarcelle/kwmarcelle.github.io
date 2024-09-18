@@ -160,7 +160,7 @@ div.content {
 }
 #support {
   height: 100vh;
-  width: 100%;
+  max-width: 800px;
   text-align: center;
 }
 div.iframely-embed {
