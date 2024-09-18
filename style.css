@@ -106,7 +106,23 @@ header {
   z-index: 150;
   background-color: black;;
 }
-
+footer .fa {
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 5px;
+  border-radius: 50%;
+  width:66px;
+}
+.fa-facebook {
+  background: #50505050;
+  color: white;
+}
+.fa-instagram {
+  background: #50505050;
+  color: white;
+}
 #menu {
   float: right;
   position: fixed;
@@ -138,6 +154,15 @@ svg {
 
 div.content {
 }
+#tattoo {  height: 100vh;
+  width: 100%;
+  text-align: center;
+}
+#support {
+  height: 100vh;
+  width: 100%;
+  text-align: center;
+}
 div.iframely-embed {
   margin:40px auto;
   border-radius: 30px;
@@ -148,6 +173,17 @@ div.content-wrapper {
   background-repeat: no-repeat;
   width:100%;
   height: 600px;
+  overflow: hidden;
+  position: ;
+  z-index: 130;
+  display: block;
+}
+div.content-wrapper2 {
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  width:100%;
+  height: 300px;
   overflow: hidden;
   position: ;
   z-index: 130;
@@ -294,6 +330,7 @@ float: none;
 display: block;
 }
 }
+
 
 @media screen and (max-width:600px) {
   img.logo {width: 100%;}
