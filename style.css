@@ -113,14 +113,14 @@ footer .fa {
   text-decoration: none;
   margin: 5px 5px;
   border-radius: 50%;
-  width:66px;
+  width:70px;
 }
 .fa-facebook {
-  background: #50505050;
+  background: #d0d0d050;
   color: white;
 }
 .fa-instagram {
-  background: #50505050;
+  background: #d0d0d050;
   color: white;
 }
 #menu {
