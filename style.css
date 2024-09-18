@@ -87,7 +87,9 @@ header {
   font-weight: 400;
   font-style: normal;
 }
-
+h1 {
+  font-family: "IM Fell DW Pica SC", serif;
+}
 .overlay a:hover, .overlay a:focus {
   
 }
@@ -302,7 +304,7 @@ h1.header-caption {
   font-style: italic;
 }
 h1 {
-  font-family: 'EB Garamond', serif;
+  font-family: "IM Fell DW Pica SC", serif;
   letter-spacing: -1px;
   font-weight: lighter;
 }
