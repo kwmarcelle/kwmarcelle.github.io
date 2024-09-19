@@ -46,15 +46,20 @@ body:before{
 header {
   margin: 0;
   padding: 0;
-  height: 100px;
+  height: 110px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.607);
+  position: fixed;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
+
 .overlay {
   transition: 2s;
   height: 100%;
   width: 100%;
   display: none;
   position: fixed;
-  z-index: 150;
+  z-index: 149;
   top: 0;
   left: 0;
   bottom:30;
@@ -142,7 +147,8 @@ img.logo {
   width: 100%;
 }
 img.links_logo {
-  height: 80px;
+  height: 70px;
+  z-index: 150;
 }
 main {
   margin: 0 auto;
@@ -157,6 +163,9 @@ svg {
 
 div.content {
   text-align: center;
+}
+#top {
+  height: 110px;
 }
 #tattoo {  
   width: 100%;
