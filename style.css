@@ -44,7 +44,7 @@ body:before{
   transition-delay: inherit;
 }
 header {
-  z-index: ;
+  z-index: 149;
   margin: 0;
   padding: 0;
   height: 110px;
@@ -149,6 +149,7 @@ img.logo {
 }
 img.links_logo {
   height: 70px;
+  z-index: 150;
 }
 main {
   margin: 0 auto;
@@ -182,6 +183,7 @@ div.content {
 div.iframely-embed {
   margin:40px auto;
   border-radius: 30px;
+  z-index: 130;
 }
 div.content-wrapper {
   background-size: contain;
