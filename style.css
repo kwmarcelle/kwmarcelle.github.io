@@ -49,7 +49,7 @@ header {
   padding: 0;
   height: 110px;
   width: 100%;
-  background-color: rgba(0, 0, 0, 0.607);
+  background-color: rgba(0, 0, 0, 0.80);
   position: fixed;
   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
@@ -146,6 +146,9 @@ footer .fa {
 }
 img.logo {
   width: 100%;
+}
+img.events {
+  width:100%;
 }
 img.links_logo {
   height: 70px;
